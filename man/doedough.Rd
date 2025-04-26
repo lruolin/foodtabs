@@ -5,7 +5,6 @@
 \alias{doedough}
 \title{doedough}
 \format{
-## `doedough`
 A data frame with 22 rows and 11 columns:
 \describe{
 \item{\code{std}}{Standard order. Sorting by standard order sorts the factor
@@ -16,7 +15,7 @@ settings in a low to high pattern.}
 \item{\code{c_short_temp_f}}{Shortening temperature, in F}
 \item{\code{d_rework_lbs}}{Rework putting back into aging, in lbs}
 \item{\code{e_aging_hours}}{Aging of dough, hours}
-\item{\code{f_conditioning_lbs}}{Conditioner, lbs}
+\item{\code{f_conditioning_lb}}{Conditioner, lbs}
 \item{\code{resp_1_pitting_number}}{Number of pits seen}
 \item{\code{resp_2_raw_spot_pct}}{Raw spots, percentage}
 \item{\code{resp_3_bake_shrink_mm}}{Bake shrink ie shrinking of the pie after
