@@ -3,3 +3,5 @@
 ^foodtabs\.Rproj$
 ^LICENSE\.md$
 ^data-raw$
+^\.github$
+^README\.Rmd$
