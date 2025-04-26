@@ -1,12 +1,11 @@
 #' doedough
 #'
-#' Design of Experiment data for study on reducing pitting in prebaked pies.
+#' Design of Experiment data for study on reducing pitting in pre-baked pies.
 #'
 #' @format
 #' A data frame with 22 rows and 11 columns:
 #' \describe{
-#' \item{\code{std}}{Standard order. Sorting by standard order sorts the factor
-#' settings in a low to high pattern.}
+#' \item{\code{std}}{Standard order. Sorting by standard order sorts the factor settings in a low to high pattern.}
 #' \item{\code{run}}{Run number}
 #' \item{\code{a_doughtemp_f}}{Dough temperature, in F}
 #' \item{\code{b_shortening_lbs}}{Amount of shortening, lbs}
@@ -16,10 +15,9 @@
 #' \item{\code{f_conditioning_lb}}{Conditioner, lbs}
 #' \item{\code{resp_1_pitting_number}}{Number of pits seen}
 #' \item{\code{resp_2_raw_spot_pct}}{Raw spots, percentage}
-#' \item{\code{resp_3_bake_shrink_mm}}{Bake shrink ie shrinking of the pie after
-#' baking, mm}
+#' \item{\code{resp_3_bake_shrink_mm}}{Bake shrink ie shrinking of the pie after baking, mm}
 #' }
 #'
-#' For further details, see \url{https://www.youtube.com/watch?v=F320jxVbGAs} 17min onwards
+#' For further details, see \url{https://www.youtube.com/watch?v=F320jxVbGAs} 17min onwards.
 #'
 "doedough"
