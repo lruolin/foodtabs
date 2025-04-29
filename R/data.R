@@ -27,7 +27,7 @@
 #' Dataset that looks at the effect of dough rising time on height risen in an
 #' controlled experiment.
 #'
-#' @format ## `dough_height`
+#' @format
 #' A data frame with 12 rows and 3 columns:
 #' \describe{
 #'   \item{loaf_number}{ID of dough}

@@ -5,15 +5,12 @@
 \alias{dough_height}
 \title{Dough rising time dataset}
 \format{
-\subsection{\code{dough_height}}{
-
 A data frame with 12 rows and 3 columns:
 \describe{
 \item{loaf_number}{ID of dough}
 \item{proofing_time}{Time taken for dough to rise, in min}
 \item{dough_height}{Height of risen dough, unit unknown}
 ...
-}
 }
 }
 \source{
