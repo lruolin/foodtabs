@@ -21,3 +21,19 @@
 #' For further details, see \url{https://www.youtube.com/watch?v=F320jxVbGAs} 17min onwards.
 #'
 "doedough"
+
+#' Dough rising time dataset
+#'
+#' Dataset that looks at the effect of dough rising time on height risen in an
+#' controlled experiment.
+#'
+#' @format ## `dough_height`
+#' A data frame with 12 rows and 3 columns:
+#' \describe{
+#'   \item{loaf_number}{ID of dough}
+#'   \item{proofing_time}{Time taken for dough to rise, in min}
+#'   \item{dough_height}{Height of risen dough, unit unknown}
+#'   ...
+#' }
+#' @source daewr package - Design and Analysis of Experiments with R, by John Lawson, CRC/Chapman Hall
+"dough_height"
