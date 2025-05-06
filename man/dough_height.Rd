@@ -5,11 +5,12 @@
 \alias{dough_height}
 \title{Dough rising time dataset}
 \format{
-A data frame with 12 rows and 3 columns:
+A data frame with 12 rows and 4 columns:
 \describe{
 \item{loaf_number}{ID of dough}
+\item{height}{Height of risen dough, unit unknown}
 \item{proofing_time}{Time taken for dough to rise, in min}
-\item{dough_height}{Height of risen dough, unit unknown}
+\item{proofing_time_fct}{Categorical factor for time taken for dough to rise}
 ...
 }
 }
