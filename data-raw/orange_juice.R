@@ -20,5 +20,16 @@ oj <- orange %>%
 
 glimpse(oj)
 
+spl_name <- c(
+  "Pampyrl_roomtemp",
+  "Tropicana_roomtemp",
+  "Fruivita_refrigerated",
+  "Joker_roomtemp",
+  "Tropicana_refrigerated",
+  "Pampyrl_refrigerated"
+)
+
+oj <- bind_cols(spl_name, oj) %>%
+  rename("sample" = 1)
 
 usethis::use_data(oj, overwrite = TRUE)

@@ -7,6 +7,7 @@
 \format{
 A data frame with 6 rows and 112 columns:
 \describe{
+\item{sample}{Sample name, and condition served - room temperature or refrigerated}
 \item{glucose}{Glucose, g/L}
 \item{fructose}{Fructose, g/L}
 \item{saccharose}{Saccharose, g/L}
