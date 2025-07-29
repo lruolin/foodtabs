@@ -1,6 +1,6 @@
 Package: foodtabs
 Title: Compilation of food science tabular datasets
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("E", "Lau", , "elau85@yahoo.com", role = c("aut", "cre"))
 Description: Compiles food science related datasets for food scientist to learn R.

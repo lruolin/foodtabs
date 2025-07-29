@@ -32,6 +32,8 @@ functions included in this package.
   [StatEase](https://www.youtube.com/watch?v=F320jxVbGAs)
 - `dough_height`: dataset from `daewr` package on effect of proofing
   time on dough height
+- `oj`: dataset from `plsma` package for physico-chemical, sensory and
+  hedonic ratings for 6 orange juice samples.
 
 ## Functions
 

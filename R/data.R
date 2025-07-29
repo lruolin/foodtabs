@@ -38,3 +38,37 @@
 #' }
 #' @source daewr package - Design and Analysis of Experiments with R, by John Lawson, CRC/Chapman Hall
 "dough_height"
+
+#' Orange Juice dataset
+#'
+#' Dataset taken from plsma package, containing the physico-chemical, sensory and hedonic
+#' measurements of 6 orange juices.
+#'
+#' @format
+#' A data frame with 6 rows and 112 columns:
+#' \describe{
+#'   \item{glucose}{Glucose, g/L}
+#'   \item{fructose}{Fructose, g/L}
+#'   \item{saccharose}{Saccharose, g/L}
+#'   \item{sweet_power}{Sweetening power, g/L}
+#'   \item{ph1}{pH before processing}
+#'   \item{ph2}{pH after centrifugation}
+#'   \item{titre}{Titre (meq/L)}
+#'   \item{citric}{Citric acid, g/L}
+#'   \item{vitamin_c}{Vitamin C, mg/100g}
+#'   \item{smell_int}{Smell intensity}
+#'   \item{odor_typi}{Odor typicity}
+#'   \item{pulp}{Pulp}
+#'   \item{taste_int}{Taste intensity}
+#'   \item{acid}{Acid}
+#'   \item{bitter}{Bitterness}
+#'   \item{sweet}{Sweetness}
+#'   \item{judge1}{Ratings of judge 1}
+#'   \item{judge2}{Ratings of judge 2}
+#'   ...
+#'   \item{judge96}{Ratings of judge 96}
+#' }
+#' @source plsma package - Laboratoire de Mathematiques Appliques, Agrocampus, Rennes.
+
+"oj"
+
